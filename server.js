@@ -14,7 +14,7 @@ app.post('/login', (req, res) => {
     if(req.body.password === 'cook' && req.body.email === 'cook@gmail.com') {
         res.json('success')
     } else {
-        res.json('failure')
+        res.json('failure') 
     }
 })
 
