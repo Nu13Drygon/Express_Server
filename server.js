@@ -15,7 +15,7 @@ app.post('/login', (req, res) => {
         res.json('success')
     } else {
         res.json('failure') 
-    }
+    } 
 })
 
 app.listen(3001, () => {
